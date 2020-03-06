@@ -10,7 +10,7 @@ export function AuthorCard(props) {
             </Card.Header>
             <Accordion.Collapse eventKey={props.author.id}>
                 <Card.Body>
-                    <Card.Text>{props.author.description}</Card.Text>
+                    <Card.Text>{props.author.books}</Card.Text>
                     <Button variant="warning">Explore</Button>
                 </Card.Body>
             </Accordion.Collapse>
